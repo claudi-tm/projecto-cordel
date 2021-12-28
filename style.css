@@ -26,18 +26,13 @@ header p {
 
 header a {
     color: var(--whiteColor);
-    text-decoration: none;
-
-}
-
-header a:hover {
-    text-decoration: underline;
-
 }
 
 main {
     font-family: var(--sriracha);
     font-size: 1.5em;
+    text-align: left;
+    font-size: 5vw;
 }
 
 footer {
@@ -60,6 +55,38 @@ p {
     line-height: 2em;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.sections {
+    padding: 1em;
+}
+
 #titulo {
+    font-size: 10vw;
+}
+
+#image1 {
+    background: url(imagens/background001.jpg) center center/ cover fixed;
+    color: var(--whiteColor);
     
+}
+
+#image2 {
+    background: url(imagens/background002.jpg) center center/ cover fixed;
+    color: var(--whiteColor);
+   
+    
+}
+
+#image2-conteiner {
+    text-shadow: 1px 1px 0px black;
+    background-color: rgba(0, 0, 0, 0.514);
+    max-width: 15em;
+    min-width: 6.25em;
 }
