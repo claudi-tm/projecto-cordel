@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +8,10 @@
 :root {
     --whiteColor: white;
     --blackColor: black;
+    --passionOne : 'Passion One', cursive;
+    --sriracha: 'Sriracha', cursive;
 }
+
 
 header {
     background-color: var(--blackColor);
@@ -16,6 +21,7 @@ header {
 header p {
     color: var(--whiteColor);
     text-align: center;
+    font-family: var(--passionOne);
 }
 
 header a {
@@ -29,7 +35,31 @@ header a:hover {
 
 }
 
+main {
+    font-family: var(--sriracha);
+    font-size: 1.5em;
+}
+
+footer {
+    background-color: var(--blackColor);
+    color: var(--whiteColor);
+    text-align: center;
+    padding: 5px;
+}
+
+footer a {
+    color: var(--whiteColor);
+}
+
+footer p {
+    margin: 0;
+}
+
 p {
     margin: 0.5em;
     line-height: 2em;
+}
+
+#titulo {
+    
 }
