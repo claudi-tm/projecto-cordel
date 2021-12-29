@@ -3,25 +3,30 @@
 * {
     margin: 0;
     padding: 0;
+    font-size: 1em;
 }
 
 :root {
     --whiteColor: white;
     --blackColor: black;
-    --passionOne : 'Passion One', cursive;
+    --passionOne: 'Passion One', cursive;
     --sriracha: 'Sriracha', cursive;
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+    font-family: var(--fonte1);
+}
 
 header {
     background-color: var(--blackColor);
     padding: 3em;
 }
 
-header p {
+header p,
+header h1 {
     color: var(--whiteColor);
     text-align: center;
-    font-family: var(--passionOne);
 }
 
 header a {
@@ -32,7 +37,7 @@ main {
     font-family: var(--sriracha);
     font-size: 1.5em;
     text-align: left;
-    font-size: 5vw;
+
 }
 
 footer {
@@ -50,6 +55,11 @@ footer p {
     margin: 0;
 }
 
+h1 {
+    font-size: 10vw;
+    font-family: var(--passionOne);
+}
+
 p {
     margin: 0.5em;
     line-height: 2em;
@@ -57,36 +67,32 @@ p {
 
 a {
     text-decoration: none;
+    font-weight: bolder;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-.sections {
-    padding: 1em;
+.image-conteiner {
+    text-shadow: 1px 1px 0px black;
+    background-color: rgba(0, 0, 0, 0.514);
+    max-width: 15em;
+    min-width: 6.25em;
 }
 
-#titulo {
-    font-size: 10vw;
+.sections {
+    padding: 2em;
+    font-weight: 3.5vw;
 }
 
 #image1 {
     background: url(imagens/background001.jpg) center center/ cover fixed;
     color: var(--whiteColor);
-    
+
 }
 
 #image2 {
     background: url(imagens/background002.jpg) center center/ cover fixed;
     color: var(--whiteColor);
-   
-    
-}
-
-#image2-conteiner {
-    text-shadow: 1px 1px 0px black;
-    background-color: rgba(0, 0, 0, 0.514);
-    max-width: 15em;
-    min-width: 6.25em;
 }
